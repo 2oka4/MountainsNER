@@ -27,7 +27,7 @@ The complete model training process is described in the *model_training.py* file
 
 4. **Training**: The model is trained using the *Trainer* class from Hugging Face, which simplifies the training process.
 
-5. **Saving the Model**: After training, the model's parameters (weights, etc.) are saved in the *model_save* folder. These files can be downloaded from Google Drive using the link provided in the *model_save.txt* file.
+5. **Saving the Model**: After training, the model's parameters (weights, etc.) are saved in the *model_save* folder. These files can be downloaded from Google Drive using the link provided in the *model_save.txt* file. The weights of the model are in the *model.safetensors* file.
 
 ## 3. Model Inference
 ### Process
